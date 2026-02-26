@@ -1,0 +1,5 @@
+tokens.json
+oauth-config.json
+*.json.bak
+node_modules/
+.claude/
