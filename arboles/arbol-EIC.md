@@ -2,7 +2,7 @@
 **Proyecto:** Equipo incidentes controles
 **Instancia:** siesa-test-sandbox.atlassian.net
 **Fecha de consulta:** 2026-02-26
-**Total de issues:** 10
+**Issues mostrados:** 1 (solo Subproyecto y Feature)
 
 ---
 
@@ -10,16 +10,6 @@
 
 ```
 [Epic] EIC-5 — Test Epic 2  (To Do)
-├── [Story] EIC-9 — Historia roadmap 4  (In Progress)
-│   ├── [Subtarea] EIC-10 — Ejecutar la prueba en un entorno controlado y documentar los resultados  (In Progress)
-│   ├── [Subtarea] EIC-11 — Establecer criterios de éxito y fracaso para la prueba  (To Do)
-│   ├── [Subtarea] EIC-12 — Crear un plan de pruebas detallado  (To Do)
-│   ├── [Subtarea] EIC-13 — Definir los objetivos de la prueba de control  (To Do)
-│   └── [Subtarea] EIC-14 — Analizar los resultados y realizar ajustes según sea necesario  (To Do)
-├── [Story] EIC-6 — historia roadmap 1  (In Progress)
-├── [Story] EIC-7 — Historia roadmap 2  (To Do)
-└── [Story] EIC-8 — Historia roadmap 3  (To Do)
-
 ```
 
 ---
@@ -29,12 +19,24 @@
 | Clave | Tipo | Padre | Resumen | Estado |
 |-------|------|-------|---------|--------|
 | EIC-5 | Epic | — | Test Epic 2 | To Do |
-| EIC-9 | Story | EIC-5 | Historia roadmap 4 | In Progress |
-| EIC-10 | Subtarea | EIC-9 | Ejecutar la prueba en un entorno controlado y documentar los resultados | In Progress |
-| EIC-11 | Subtarea | EIC-9 | Establecer criterios de éxito y fracaso para la prueba | To Do |
-| EIC-12 | Subtarea | EIC-9 | Crear un plan de pruebas detallado | To Do |
-| EIC-13 | Subtarea | EIC-9 | Definir los objetivos de la prueba de control | To Do |
-| EIC-14 | Subtarea | EIC-9 | Analizar los resultados y realizar ajustes según sea necesario | To Do |
-| EIC-6 | Story | EIC-5 | historia roadmap 1 | In Progress |
-| EIC-7 | Story | EIC-5 | Historia roadmap 2 | To Do |
-| EIC-8 | Story | EIC-5 | Historia roadmap 3 | To Do |
+
+---
+
+> **Nota:** El árbol muestra únicamente niveles Subproyecto y Feature.
+> ⚠️ Se omitieron Story, Subtarea y niveles inferiores. El árbol muestra hasta Feature.
+
+## Información detallada
+
+> Datos obtenidos via `GET /rest/api/3/issue/{KEY}` — 2026-02-27
+
+### EIC-5 — Test Epic 2
+
+| Campo | Valor |
+|-------|-------|
+| Tipo | Epic |
+| Estado | To Do |
+| Prioridad | Medium |
+| Asignado | Leider Roldan Vivas Martinez |
+| Reportado por | Leider Roldan Vivas Martinez |
+| Creado | 2025-11-04 |
+| Actualizado | 2025-11-04 |

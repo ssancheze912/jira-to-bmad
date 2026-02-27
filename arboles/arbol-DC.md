@@ -2,15 +2,14 @@
 **Proyecto:** DEMO CAPA
 **Instancia:** siesa-test-sandbox.atlassian.net
 **Fecha de consulta:** 2026-02-26
-**Total de issues:** 1
+**Issues mostrados:** 0 (solo Subproyecto y Feature)
 
 ---
 
 ## Árbol completo
 
 ```
-[Task] DC-1 — test  (To Do)
-
+(no hay Features ni Subproyectos en este proyecto)
 ```
 
 ---
@@ -19,4 +18,8 @@
 
 | Clave | Tipo | Padre | Resumen | Estado |
 |-------|------|-------|---------|--------|
-| DC-1 | Task | — | test | To Do |
+
+---
+
+> **Nota:** El árbol muestra únicamente niveles Subproyecto y Feature.
+> ⚠️ Se omitieron Task y niveles inferiores. El árbol muestra hasta Feature.

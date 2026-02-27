@@ -2,15 +2,14 @@
 **Proyecto:** Mi proyecto de scrum
 **Instancia:** siesa-test-sandbox.atlassian.net
 **Fecha de consulta:** 2026-02-26
-**Total de issues:** 1
+**Issues mostrados:** 0 (solo Subproyecto y Feature)
 
 ---
 
 ## Árbol completo
 
 ```
-[Story] SCRUM-1 — como [ROL], necesito [FUNCIONALIDAD], para [BENEFICIO]  (To Do)
-
+(no hay Features ni Subproyectos en este proyecto)
 ```
 
 ---
@@ -19,4 +18,8 @@
 
 | Clave | Tipo | Padre | Resumen | Estado |
 |-------|------|-------|---------|--------|
-| SCRUM-1 | Story | — | como [ROL], necesito [FUNCIONALIDAD], para [BENEFICIO] | To Do |
+
+---
+
+> **Nota:** El árbol muestra únicamente niveles Subproyecto y Feature.
+> ⚠️ Se omitieron Story y niveles inferiores. El árbol muestra hasta Feature.

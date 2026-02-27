@@ -2,7 +2,7 @@
 **Proyecto:** Pruebas APIJIRA
 **Instancia:** siesa-test-sandbox.atlassian.net
 **Fecha de consulta:** 2026-02-26
-**Total de issues:** 6
+**Issues mostrados:** 1 (solo Subproyecto y Feature)
 
 ---
 
@@ -10,14 +10,6 @@
 
 ```
 [Epic] PA-1 — Epic 1  (In Progress)
-├── [Task] PA-4 — Tarea 1  (To Do)
-├── [Story] PA-5 — Historia 1  (In Progress)
-└── [Story] PA-6 — Prueba API  (Done)
-
-[Bug] PA-2 — Error 1  (To Do)
-
-[Task] PA-3 — Tarea 2  (Done)
-
 ```
 
 ---
@@ -27,8 +19,29 @@
 | Clave | Tipo | Padre | Resumen | Estado |
 |-------|------|-------|---------|--------|
 | PA-1 | Epic | — | Epic 1 | In Progress |
-| PA-4 | Task | PA-1 | Tarea 1 | To Do |
-| PA-5 | Story | PA-1 | Historia 1 | In Progress |
-| PA-6 | Story | PA-1 | Prueba API | Done |
-| PA-2 | Bug | — | Error 1 | To Do |
-| PA-3 | Task | — | Tarea 2 | Done |
+
+---
+
+> **Nota:** El árbol muestra únicamente niveles Subproyecto y Feature.
+> ⚠️ Se omitieron Task, Story, Bug y niveles inferiores. El árbol muestra hasta Feature.
+
+## Información detallada
+
+> Datos obtenidos via `GET /rest/api/3/issue/{KEY}` — 2026-02-27
+
+### PA-1 — Epic 1
+
+| Campo | Valor |
+|-------|-------|
+| Tipo | Epic |
+| Estado | In Progress |
+| Prioridad | N/A |
+| Asignado | Shirley Casquete V. |
+| Reportado por | Shirley Casquete V. |
+| Creado | 2026-01-16 |
+| Actualizado | 2026-01-16 |
+| Fecha límite | 2026-01-30 |
+
+**Descripción:**
+
+[Placeholder], descripción de Epic 1
