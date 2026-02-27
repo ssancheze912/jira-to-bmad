@@ -21,7 +21,7 @@ If no explicit action is given, infer it from context. Default to **tree generat
 
 - Working directory: `C:\Users\ssancheze\Desktop\Dev\jira_to_bmad`
 - Tree output: `arboles/arbol-{PROJECT-KEY}.md`
-- Credentials: `.claude/skills/jira/oauth-config.json` (client_id, client_secret) and `.claude/skills/jira/tokens.json` (access_token, refresh_token)
+- Credentials: `.claude/commands/jira/oauth-config.json` (client_id, client_secret) and `.claude/commands/jira/tokens.json` (access_token, refresh_token)
 - Jira instances: **resolved dynamically** from `GET https://api.atlassian.com/oauth/token/accessible-resources` — do NOT hardcode cloud IDs
 
 ---
@@ -30,10 +30,10 @@ If no explicit action is given, infer it from context. Default to **tree generat
 
 ### Check if the user is already logged in
 
-Check whether `.claude/skills/jira/tokens.json` exists and has a `refresh_token`:
+Check whether `.claude/commands/jira/tokens.json` exists and has a `refresh_token`:
 - **No `tokens.json` or no `refresh_token`** → the user has never logged in. Run:
   ```
-  node .claude/skills/jira/oauth-login.js
+  node .claude/commands/jira/oauth-login.js
   ```
   This opens the browser so the user can log in with their Jira credentials. Wait until `tokens.json` is created before proceeding. Inform the user:
   ```
@@ -45,8 +45,8 @@ Check whether `.claude/skills/jira/tokens.json` exists and has a `refresh_token`
   ```json
   { "grant_type": "refresh_token", "client_id": "...", "client_secret": "...", "refresh_token": "..." }
   ```
-  Read credentials from `.claude/skills/jira/oauth-config.json` and token from `.claude/skills/jira/tokens.json`.
-  POST to `https://auth.atlassian.com/oauth/token` and save the new `access_token` (and `refresh_token` if returned) back to `.claude/skills/jira/tokens.json`.
+  Read credentials from `.claude/commands/jira/oauth-config.json` and token from `.claude/commands/jira/tokens.json`.
+  POST to `https://auth.atlassian.com/oauth/token` and save the new `access_token` (and `refresh_token` if returned) back to `.claude/commands/jira/tokens.json`.
 
 **Never use `/dev/stdin` — it does not work on Windows.**
 

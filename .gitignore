@@ -1,6 +1,6 @@
 # Auth — sensitive, per-user
-.claude/skills/jira/tokens.json
-.claude/skills/jira/oauth-config.json
+.claude/commands/jira/tokens.json
+.claude/commands/jira/oauth-config.json
 
 # Claude local settings
 .claude/settings.local.json
