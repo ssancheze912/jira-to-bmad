@@ -1,5 +1,11 @@
-tokens.json
-oauth-config.json
+# Auth — sensitive, per-user
+.claude/skills/jira/tokens.json
+.claude/skills/jira/oauth-config.json
+
+# Claude local settings
+.claude/settings.local.json
+.claude/projects/
+
+# Misc
 *.json.bak
 node_modules/
-.claude/
