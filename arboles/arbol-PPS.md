@@ -1,40 +1,32 @@
 # Árbol del Proyecto PPS — PS - Platform Services
 
 **Instancia:** siesa-team.atlassian.net  
-**Fecha generación:** 2026-02-27  
-**Issues mostrados:** 3 Features (de 337 totales)  
+**Fecha consulta:** 2026-02-27  
+**Features:** 4  
 
-## Resumen por tipo (total del proyecto)
-
-| Tipo | Cantidad |
-|------|----------|
-| Bug | 1 |
-| Epic | 19 |
-| Feature | 3 |
-| Historia | 23 |
-| Sub-task | 203 |
-| Task | 88 |
+---
 
 ## Árbol Jerárquico (hasta Feature)
 
 ├── 🔷 **PPS-2** (Feature) [Backlog] — Servicios de plataforma
 ├── 🔷 **PPS-6** (Feature) [Backlog] — BMAD
-└── 🔷 **PPS-28** (Feature) [Backlog] — Otros
-
-## Detalle de Features
-
-| Key | Tipo | Resumen | Estado |
-|-----|------|---------|--------|
-| PPS-2 | Feature | Servicios de plataforma | Backlog |
-| PPS-6 | Feature | BMAD | Backlog |
-| PPS-28 | Feature | Otros | Backlog |
+├── 🔷 **PPS-28** (Feature) [Backlog] — Otros
+└── 🔷 **PPS-361** (Feature) [Backlog] — test
 
 ---
 
-> **Nota:** El árbol muestra únicamente el nivel Feature. Se omitieron: Epic, Task, Sub-task, Historia, Bug.
-> Datos originales obtenidos con: `POST /rest/api/3/search/jql`.
+## Resumen de Features
 
-## Información detallada
+| Key | Tipo | Resumen | Estado | Asignado |
+|-----|------|---------|--------|----------|
+| PPS-2 | Feature | Servicios de plataforma | Backlog | Luis Prieto |
+| PPS-6 | Feature | BMAD | Backlog | Guillermo Augusto Durán Boneth |
+| PPS-28 | Feature | Otros | Backlog | Juan David Guevara Hurtado |
+| PPS-361 | Feature | test | Backlog | Sebastian Gonzalez Restrepo |
+
+---
+
+## Información detallada por Feature
 
 > Datos obtenidos via `GET /rest/api/3/issue/{KEY}` — 2026-02-27
 
@@ -73,3 +65,20 @@
 | Reportado por | Juan David Guevara Hurtado |
 | Creado | 2025-12-12 |
 | Actualizado | 2025-12-23 |
+
+### PPS-361 — test
+
+| Campo | Valor |
+|-------|-------|
+| Tipo | Feature |
+| Estado | Backlog |
+| Prioridad | 3 |
+| Asignado | Sebastian Gonzalez Restrepo |
+| Reportado por | Sebastian Gonzalez Restrepo |
+| Creado | 2026-02-26 |
+| Actualizado | 2026-02-26 |
+
+---
+
+> **Nota:** El árbol muestra únicamente el nivel Feature. PPS tiene Epics, Tasks, Historias y Sub-tasks bajo cada Feature (no mostrados).
+> API: `POST /rest/api/3/search/jql` — `GET /rest/api/3/issue/{KEY}`
